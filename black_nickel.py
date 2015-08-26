@@ -1,7 +1,7 @@
 # coding: utf-8
 import random
 
-colors = [
+COLORS = [
     "Aero", "Almond", "Amaranth", "Amazon", "Amber",
     "AmethystApricot", "Aqua", "Aquamarine", "Arsenic", "Artichoke",
     "Asparagus", "Auburn", "Aureolin", "AuroMetalSaurus", "Avocado",
@@ -60,7 +60,7 @@ colors = [
     "Viridian", "Volt", "Waterspout", "Wenge", "Wheat",
     "White", "Wine", "Wisteria", "Xanadu", "Yellow",
     "YellowGreen", "Zaffre", "Zomp"]
-fruits = [
+FRUITS = [
     "Apple",  "Apricot",  "Avocado",  "Banana",  "Bilberry",
     "Blackberry",  "Blackcurrant",  "Blueberry",  "Boysenberry",  "Cantaloupe",
     "Currant",  "Cherry",  "Cherimoya",  "Cloudberry",  "Coconut",
@@ -79,5 +79,5 @@ fruits = [
     "Redcurrant",  "Salalberry",  "Satsuma",  "Starfruit",  "Strawberry",
     "Tamarillo", "Uglifruit"]
 
-print(random.choice(colors)+random.choice(fruits))
+print(random.choice(COLORS)+random.choice(FRUITS))
 
